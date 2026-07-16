@@ -1,5 +1,5 @@
-:root{--bg:#FAF7F2;--card:#FFFFFF;--text:#2C3830;--muted:#6B7A70;--green:#2E7D5B;--green-deep:#1F5C42;--green-soft:#E7F2EC;--border:#E8E2D8;--radius:18px}
-@media (prefers-color-scheme:dark){:root{--bg:#151A17;--card:#1E2621;--text:#EAF0EC;--muted:#9FB0A6;--green:#5DBE94;--green-deep:#8FD9B8;--green-soft:#22352C;--border:#2C3830}}
+:root{--bg:#FAF9F2;--card:#FFFFFF;--text:#263733;--muted:#64756F;--green:#337F72;--green-deep:#295F56;--green-soft:#E4F2EE;--coral:#E16A4B;--coral-deep:#C9553B;--coral-soft:#FCEAE2;--border:#E5E4D6;--radius:18px}
+@media (prefers-color-scheme:dark){:root{--bg:#131A18;--card:#1D2624;--text:#E7EDEA;--muted:#9FAFA9;--green:#43907F;--green-deep:#9CCFC2;--green-soft:#1E332E;--coral:#F08B72;--coral-deep:#F49D86;--coral-soft:#3B2822;--border:#2A3835}}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased}
@@ -14,9 +14,9 @@ main{padding:24px 0 64px}
 .hero{text-align:center;padding:56px 0 40px}
 .hero .mark{width:88px;height:88px;margin:0 auto 24px;display:block}
 .hero h1{font-size:44px;letter-spacing:-.02em;line-height:1.15;font-weight:800}
-.hero .claim{font-size:20px;color:var(--green);margin-top:10px;font-weight:600}
+.hero .claim{font-size:20px;color:var(--coral-deep);margin-top:10px;font-weight:600}
 .hero p.sub{max-width:520px;margin:20px auto 0;color:var(--muted)}
-.badge{display:inline-block;margin-top:28px;background:var(--green-soft);color:var(--green-deep);border:1px solid var(--border);padding:10px 20px;border-radius:999px;font-weight:600;font-size:15px}
+.badge{display:inline-block;margin-top:28px;background:var(--coral-soft);color:var(--coral-deep);border:1px solid var(--border);padding:10px 20px;border-radius:999px;font-weight:600;font-size:15px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:48px}
 .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:22px}
 .card h3{font-size:17px;margin-bottom:6px}
